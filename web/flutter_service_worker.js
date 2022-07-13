@@ -18,7 +18,6 @@ const RESOURCES = {
 "assets/assets/phone.png": "0ae2f66e3ecf9b2e87b2a9aeb1a86422",
 "assets/assets/search.png": "cacefd7d9d9dae0977ff022243433e8d",
 "assets/assets/send.png": "1df0d1a089c1bee052ae276e864ccc06",
-"assets/assets/sidebar_image.png": "254a7b607b593f00b011883a1e8ea4ff",
 "assets/assets/user1.jpg": "eb029339e3ec9e799f1f2afa2fd5c592",
 "assets/assets/user2.jpg": "3c16c4098ebf1d7777746084610047a8",
 "assets/assets/user3.jpg": "e50e46d165528a7f0bb518c899babedd",
