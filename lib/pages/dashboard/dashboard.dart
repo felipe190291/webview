@@ -22,7 +22,7 @@ class _DashboardState extends State<Dashboard> {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: AppColor.bgColor,
+        color: Colors.white,
         borderRadius: BorderRadius.circular(30),
       ),
       child: Column(

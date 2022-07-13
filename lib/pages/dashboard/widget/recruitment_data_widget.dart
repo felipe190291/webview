@@ -28,13 +28,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user2.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,
@@ -49,13 +90,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user4.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,
@@ -78,13 +160,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user1.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,
@@ -99,13 +222,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user3.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,
@@ -128,13 +292,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user1.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,
@@ -149,13 +354,54 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
                   child: Row(children: [
                     Expanded(
                         child: Container(
-                            color: Colors.yellow,
-                            child: const Text("Item 2"),
+                            child: Image.asset(
+                              "assets/user2.jpg",
+                              fit: BoxFit.cover,
+                            ),
                             height: 150)),
                     Expanded(
                         child: Container(
                             color: Colors.green,
-                            child: const Text("Item 2"),
+                            child: Column(
+                              children: [
+                                Container(
+                                    alignment: Alignment.bottomLeft,
+                                    margin: EdgeInsets.symmetric(
+                                        vertical: 10, horizontal: 25),
+                                    child: Text("Logo \nDesign",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 25.0,
+                                            color: AppColor.white))),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 20,
+                                        child: Icon(
+                                          Icons.business,
+                                          color: Colors.black,
+                                        )),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(
+                                          Icons.enhance_photo_translate_rounded,
+                                          color: Colors.black),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 20,
+                                      child: Icon(Icons.gamepad_outlined,
+                                          color: Colors.black),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                             height: 150))
                   ]),
                   height: 150,

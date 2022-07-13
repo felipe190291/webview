@@ -39,9 +39,6 @@ class ProfileCardWidget extends StatelessWidget {
             thickness: 0.5,
             color: Colors.grey,
           ),
-          profileListTile("Joined Date", "18-Apr-2021"),
-          profileListTile("Projects", "32 Active"),
-          profileListTile("Accomplishment", "125"),
         ],
       ),
     );

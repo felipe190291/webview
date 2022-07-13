@@ -104,14 +104,14 @@ class _SideBarState extends State<SideBar> {
                     ProfileCardWidget(),
                     SizedBox(height: 40),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                            width: 200,
                             child: Icon(
-                              Icons.add_photo_alternate,
-                              size: 46.0,
-                              color: Color.fromARGB(255, 3, 191, 188),
-                            )),
+                          Icons.add_photo_alternate,
+                          size: 46.0,
+                          color: Color.fromARGB(255, 3, 191, 188),
+                        )),
                         Column(children: [
                           Text("Current balance"),
                           Text(
