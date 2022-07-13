@@ -3,14 +3,7 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:webview/common/app_colors.dart';
 
-class NotificationCardWidgetButton extends StatefulWidget {
-  @override
-  _NotificationCardWidgetButtonState createState() =>
-      _NotificationCardWidgetButtonState();
-}
-
-class _NotificationCardWidgetButtonState
-    extends State<NotificationCardWidgetButton> {
+class NotificationCardWidgetButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -30,7 +23,12 @@ class _NotificationCardWidgetButtonState
                   Icons.search, color: Colors.black,
                   size: 24.0,
                 ),
-
+                heroTag: TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: 'Enter a search term',
+                  ),
+                ),
                 label: Text(
                   'Search',
                   style: TextStyle(color: Colors.black),
